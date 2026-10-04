@@ -1,0 +1,216 @@
+[
+ {
+  "id": "H01",
+  "lang": "en",
+  "note": "Wealth club, doubles savings, deposit",
+  "text": "Congratulations! You have been selected for our exclusive wealth club. Our SEBI certified experts will double your savings in 60 days. Deposit ₹15,000 now to confirm your seat.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H02",
+  "lang": "en",
+  "note": "Operators, premium service, UPI payment",
+  "text": "Sir, market is going to explode tomorrow. Big operators are buying XYZ. Book your entry through our premium service. Pay ₹999 on 9876543210@paytm and send screenshot.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H03",
+  "lang": "en",
+  "note": "Demat flagged, holdings seized",
+  "text": "Your Demat account has been flagged. Call our officer at 011-23456789 immediately or your holdings will be seized. Do not tell anyone.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H04",
+  "lang": "ta",
+  "note": "Tamil recovery scam",
+  "text": "நீங்கள் முதலீடு செய்த பணத்தை இழந்தீர்களா? எங்கள் குழு உங்கள் பணத்தை மீட்டு தரும். முதலில் ₹5000 கட்டணம் செலுத்தவும்.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H05",
+  "lang": "hi",
+  "note": "Hindi double, membership fee, Telegram",
+  "text": "आपका निवेश दोगुना होगा सिर्फ 30 दिन में। आज ही सदस्यता शुल्क जमा करें और टेलीग्राम ग्रुप जॉइन करें।",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H06",
+  "lang": "en",
+  "note": "App bonus via short link",
+  "text": "Dear investor, install our official trading app from this link to get Rs 500 bonus: bit.ly/3xYzApp. Offer ends tonight.",
+  "ok_bands": [
+   "verify",
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H07",
+  "lang": "en",
+  "note": "Free tips on WhatsApp",
+  "text": "Free stock tips on WhatsApp! 95% accuracy. Message 'JOIN' to +91 98765 43210.",
+  "ok_bands": [
+   "verify",
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H08",
+  "lang": "en",
+  "note": "Tax to release profit",
+  "text": "Final reminder: pay the ₹25,000 tax to release your profit of ₹4,50,000 in 24 hours else account will be blocked.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H09",
+  "lang": "en",
+  "note": "Caller asks for code verbally",
+  "text": "Hello sir, I am calling from SBI. Your account needs urgent verification. Please tell me the 6 digit code on your phone.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H10",
+  "lang": "en",
+  "note": "Look-alike broker domain",
+  "text": "Zerodha is offering lifetime free demat. Open account at zerodha-offer.com/open before 31st.",
+  "ok_bands": [
+   "verify",
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H11",
+  "lang": "en",
+  "note": "Tax reminder",
+  "text": "Reminder: Your quarterly advance tax payment is due on 15 December. Pay through the income tax portal.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H12",
+  "lang": "en",
+  "note": "SIP mandate notice",
+  "text": "Your mutual fund SIP will be debited on the 5th. Please maintain sufficient balance. Registration number of this mandate: UMRN12345.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H13",
+  "lang": "en",
+  "note": "Advice article mentioning guaranteed returns",
+  "text": "Is it safe to invest in mutual funds? Experts say diversify, invest for the long term and avoid anything that promises guaranteed returns.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H14",
+  "lang": "en",
+  "note": "Compounding lesson",
+  "text": "Today's class: What is compounding? If you invest ₹10,000 at 12% per year, it grows to about ₹31,058 in 10 years. This is an illustration, not a promise.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H15",
+  "lang": "en",
+  "note": "Question about a banker",
+  "text": "Hi, my bank's relationship manager called me about a fixed deposit. He sent his employee ID. How do I confirm he is genuine?",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H16",
+  "lang": "en",
+  "note": "Holiday notice",
+  "text": "NSE: The market will remain closed on 2 October on account of Gandhi Jayanti.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H17",
+  "lang": "ta",
+  "note": "Tamil SIP notice",
+  "text": "உங்கள் SIP தொகை ₹2,000 நாளை பற்று வைக்கப்படும். சந்தை ஆபத்துக்கு உட்பட்டது.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H18",
+  "lang": "hi",
+  "note": "Hindi class",
+  "text": "आज की क्लास में हम सीखेंगे कि म्यूचुअल फंड क्या होता है और जोखिम कैसे समझें।",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H19",
+  "lang": "en",
+  "note": "Congratulations chat",
+  "text": "Congratulations on your new job! Let's celebrate on Saturday. Send me the restaurant location.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "H20",
+  "lang": "en",
+  "note": "RA with number and e-mail",
+  "text": "Hi, I am a SEBI RA. Reg no INH000001234. Charges ₹15000 per year, payable via the SEBI-approved UPI handle on our website. Contact: info@advisor.in",
+  "ok_bands": [
+   "verify",
+   "high"
+  ]
+ },
+ {
+  "id": "H21",
+  "lang": "en",
+  "note": "Rupee daily claim + handle",
+  "text": "Make ₹5000 daily by following our calls. No experience needed. 1 month trial free, then ₹1500/month. Telegram: @wealthbuilder_in",
+  "ok_bands": [
+   "verify",
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "H22",
+  "lang": "en",
+  "note": "Utility bill",
+  "text": "Your electricity bill of ₹1,450 is due on 7th. Pay via the official app.",
+  "ok_bands": [
+   "low"
+  ]
+ }
+]

@@ -1,0 +1,21 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --ink: #16202a;
+  --muted: #4a5663;
+  --line: #dde2e8;
+  --brand: #1d4e5f;
+  --brand-ink: #ffffff;
+  --focus: #0b5fff;
+  --shadow: 0 1px 2px rgba(22, 32, 42, .06), 0 4px 14px rgba(22, 32, 42, .06);
+
+  --low-bg: #e3f1e7;   --low-fg: #14502a;
+  --verify-bg: #fff0cf; --verify-fg: #6b4400;
+  --high-bg: #fce3dc;  --high-fg: #8f2412;
+  --crit-bg: #7a1010;  --crit-fg: #ffffff;
+
+  --radius: 14px;
+  --gap: 14px;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Tamil", "Noto Sans Devanagari", "Nirmala UI", sans-serif;
+}

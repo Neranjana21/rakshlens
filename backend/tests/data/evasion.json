@@ -1,0 +1,130 @@
+[
+ {
+  "id": "E01",
+  "lang": "en",
+  "note": "Spaced-out letters",
+  "text": "G U A R A N T E E D  R E T U R N S !!! Pay registration fee 2000 to join",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "E02",
+  "lang": "en",
+  "note": "Cyrillic look-alike letters",
+  "text": "Guаrаnteed prоfit, risk frее. Jоin оur Tеlegram: t.me/vipcalls",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "E03",
+  "lang": "en",
+  "note": "Zero-width characters",
+  "text": "Guar​anteed 30% monthly. Reg​istration fee ₹999. Contact on telegram",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "E04",
+  "lang": "en",
+  "note": "No keywords, soft pitch",
+  "text": "Our members are making 4-5 lakhs every month from home with our mentor guidance. Message me on WhatsApp to know how. Seats are filling fast.",
+  "ok_bands": [
+   "verify",
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "E05",
+  "lang": "en",
+  "note": "Tanglish",
+  "text": "Uruthiyana laabam kidaikum. Registration fee 3000 anuppunga. Telegram la join pannunga",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "E06",
+  "lang": "en",
+  "note": "Legit webinar invite",
+  "text": "Join our free webinar on how to read balance sheets. Register at the link to get the slides.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "E07",
+  "lang": "en",
+  "note": "Contract-note style",
+  "text": "Trade confirmation: Bought 10 shares on NSE at market price. Funds payout will be credited in T+1. Contact support through the app.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "E08",
+  "lang": "hi",
+  "note": "Devanagari numerals",
+  "text": "रोज ५% मुनाफा गारंटी! रजिस्ट्रेशन फीस ₹५०००",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "E09",
+  "lang": "en",
+  "note": "Authority threat, no payment ask",
+  "text": "SEBI notice: your demat account is being suspended. Call 98765 43210 now.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "E10",
+  "lang": "en",
+  "note": "Credential ask in friendly tone",
+  "text": "Hi, I am Priya from XYZ Capital. We help investors grow wealth with our exclusive portfolio. Please share your PAN card and Aadhaar for KYC so we can start.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "E11",
+  "lang": "en",
+  "note": "Awareness post quoting scam phrases",
+  "text": "Fraud alert: scammers say 'guaranteed returns', 'limited seats', 'pay registration fee'. Do not fall for it.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "E12",
+  "lang": "en",
+  "note": "Question from a victim",
+  "text": "I lost 50000 in a trading app, what should I do?",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "E13",
+  "lang": "en",
+  "note": "Social-proof pitch, no keywords",
+  "text": "I made 3x my money last month on this platform, my uncle taught me. I can show you, it is safe, just download this app.",
+  "ok_bands": [
+   "verify",
+   "high",
+   "critical"
+  ]
+ }
+]

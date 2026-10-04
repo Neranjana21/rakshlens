@@ -1,0 +1,13 @@
+
+devset: 24/26 within the expected band
+  scam messages flagged High/Critical: 10/12
+  clearly-safe messages kept Low:      9/9
+  FAIL D04 [VIP telegram, daily profit] got=verify(40) want=['high', 'critical'] signals=['PRIVATE_CHANNEL_MOVE', 'URGENCY', 'EXCLUSIVITY_VIP']
+  FAIL D12 [IPO allotment guarantee] got=verify(30) want=['high', 'critical'] signals=['GUARANTEED_RETURNS']
+
+evasion: 10/13 within the expected band
+  scam messages flagged High/Critical: 6/7
+  clearly-safe messages kept Low:      3/4
+  FAIL E01 [Spaced-out letters] got=verify(30) want=['high', 'critical'] signals=['UPFRONT_FEE']
+  FAIL E11 [Awareness post quoting scam phrases] got=high(63) want=['low'] signals=['UPFRONT_FEE', 'GUARANTEED_RETURNS', 'COMBO_PROMISE_PLUS_PAYMENT', 'URGENCY']
+  FAIL E13 [Social-proof pitch, no keywords] got=low(0) want=['verify', 'high', 'critical'] signals=[]

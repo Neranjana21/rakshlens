@@ -1,0 +1,20 @@
+[project]
+name = "rakshalens"
+version = "0.1.0"
+description = "Explainable scam and claim verifier for first-time Indian investors"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.29",
+  "httpx>=0.27",
+  "pydantic>=2.6",
+  "python-multipart>=0.0.9",
+  "pillow>=10.3",
+  "pytesseract>=0.3.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,19 @@
+
+devset: 26/26 within the expected band
+  scam messages flagged High/Critical: 12/12
+  clearly-safe messages kept Low:      9/9
+
+
+evasion: 13/13 within the expected band
+  scam messages flagged High/Critical: 7/7
+  clearly-safe messages kept Low:      4/4
+
+
+holdout: 17/22 within the expected band
+  scam messages flagged High/Critical: 4/7
+  clearly-safe messages kept Low:      9/10
+  FAIL H01 [Wealth club, doubles savings, deposit] got=verify(25) want=['high', 'critical'] signals=['SEBI_CLAIM_NO_NUMBER', 'EXCLUSIVITY_VIP']
+  FAIL H02 [Operators, premium service, UPI payment] got=verify(30) want=['high', 'critical'] signals=['PERSONAL_PAYEE', 'EXCLUSIVITY_VIP']
+  FAIL H07 [Free tips on WhatsApp] got=low(0) want=['verify', 'high', 'critical'] signals=[]
+  FAIL H09 [Caller asks for code verbally] got=low(0) want=['high', 'critical'] signals=[]
+  FAIL H13 [Advice article mentioning guaranteed returns] got=verify(30) want=['low'] signals=['GUARANTEED_RETURNS']

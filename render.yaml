@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: rakshalens
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY   # optional; enables cloud AI for users who opt in
+        sync: false
+      - key: RAKSHALENS_MODEL
+        value: claude-haiku-4-5-20251001
+      - key: IVR_TOKEN           # protects the voice-call webhooks
+        generateValue: true

@@ -1,0 +1,8 @@
+holdout2 (FIRST RUN, untuned): 15/20 within expected band
+  scams flagged High/Critical: 4/8
+  clearly-safe kept Low: 9/10
+  FAIL N01 [Passive income, send capital to account] got=verify(20) want=['high', 'critical'] ['PERSONAL_PAYEE']
+  FAIL N06 [IPO pre-booking deposit] got=low(10) want=['high', 'critical'] ['EXCLUSIVITY_VIP']
+  FAIL N07 [Fake SEBI circular, safe account] got=low(0) want=['high', 'critical'] []
+  FAIL N09 [Pump alert on Telegram] got=verify(35) want=['high', 'critical'] ['TARGET_PRICE_CALL', 'PRIVATE_CHANNEL_MOVE']
+  FAIL N11 [Genuine KYC-updated confirmation] got=verify(20) want=['low'] ['KYC_PRESSURE']

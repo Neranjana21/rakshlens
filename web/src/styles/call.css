@@ -1,0 +1,71 @@
+/* Call simulator. Classes only: the CSP forbids inline styles. */
+.hidden { display: none !important; }
+.call-page { max-width: 1100px; }
+.call-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+.call-head h1 { font-size: 1.7rem; letter-spacing: -.02em; }
+.banner.note { margin: 14px 0 20px; font-size: .94rem; }
+.banner.note code, .log code { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: .9em; }
+
+.call-grid { display: grid; gap: 28px; grid-template-columns: 1fr; align-items: start; }
+@media (min-width: 900px) { .call-grid { grid-template-columns: 380px minmax(0, 1fr); gap: 40px; } }
+
+/* phone */
+.phone { max-width: 380px; width: 100%; margin: 0 auto; }
+.screen { background: #0f1b22; color: #eef4f6; border-radius: 34px; padding: 18px 16px 18px; box-shadow: 0 18px 44px rgba(15, 27, 34, .35); border: 6px solid #1c2b34; display: grid; gap: 12px; }
+.who { display: flex; align-items: center; gap: 12px; }
+.avatar { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, #1d4e5f, #2f8397); font-weight: 800; font-size: 1.25rem; flex: none; }
+.name { font-weight: 700; }
+.status { font-size: .88rem; color: #9fc3cf; }
+.status.live { color: #7be0a4; }
+.timer { margin-left: auto; font-variant-numeric: tabular-nums; color: #9fc3cf; font-size: .95rem; }
+
+.transcript { min-height: 230px; max-height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; padding: 4px 2px; }
+.bubble { max-width: 88%; padding: 9px 12px; border-radius: 14px; font-size: .96rem; line-height: 1.45; word-break: break-word; }
+.bubble.sys { background: #1f3340; align-self: flex-start; border-bottom-left-radius: 4px; }
+.bubble.me { background: #2f8397; color: #fff; align-self: flex-end; border-bottom-right-radius: 4px; }
+.bubble.sys.speaking { outline: 2px solid #7be0a4; }
+.bubble.note { background: transparent; border: 1px dashed #3b5463; color: #9fc3cf; font-size: .85rem; align-self: center; text-align: center; }
+.bubble small { display: block; opacity: .7; margin-bottom: 2px; font-size: .75rem; }
+
+.say-panel { display: grid; gap: 8px; background: #16262f; border-radius: 16px; padding: 10px; }
+.say-panel .lbl { color: #cfe2e8; margin: 0; font-size: .9rem; }
+.say-panel textarea { min-height: 70px; background: #0f1b22; color: #eef4f6; border-color: #35505e; }
+.examples-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.examples-row button { font: inherit; font-size: .82rem; padding: 5px 10px; border-radius: 999px; border: 1px solid #35505e; background: transparent; color: #cfe2e8; cursor: pointer; }
+.examples-row button:hover { border-color: #7be0a4; color: #fff; }
+.say-actions { display: flex; gap: 8px; justify-content: flex-end; }
+.say-actions .btn { min-height: 42px; padding: 6px 16px; }
+
+.keypad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.keypad button { font: inherit; font-size: 1.35rem; font-weight: 600; height: 50px; border-radius: 14px; border: none; background: #1f3340; color: #eef4f6; cursor: pointer; transition: background-color .12s, transform .1s; }
+.keypad button:hover { background: #2b4757; }
+.keypad button:active { transform: scale(.96); }
+.keypad.disabled button { opacity: .35; cursor: not-allowed; pointer-events: none; }
+.keypad.waiting button { box-shadow: 0 0 0 2px #7be0a4 inset; }
+
+.call-buttons { display: grid; }
+.call-start, .call-end { width: 100%; min-height: 54px; font-size: 1.1rem; border: none; color: #fff; }
+.call-start { background: #1f9d55; }
+.call-end { background: #d14343; }
+.call-start:hover:not([disabled]) { background: #178046; }
+.call-end:hover:not([disabled]) { background: #b53434; }
+.voice-note { margin: 10px 4px 0; }
+
+/* behind the scenes */
+.behind h2 { font-size: 1.15rem; margin-bottom: 4px; }
+.log { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 10px; }
+.log li { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; box-shadow: var(--shadow); }
+.log .req { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-weight: 700; }
+.log .method { background: var(--brand); color: var(--brand-ink); border-radius: 6px; padding: 1px 8px; font-size: .78rem; }
+.log .code { margin-left: auto; font-size: .82rem; font-weight: 700; color: var(--low-fg); background: var(--low-bg); border-radius: 999px; padding: 1px 10px; }
+.log .why { margin: 6px 0 0; color: var(--muted); font-size: .94rem; }
+.log .sent { margin: 6px 0 0; font-size: .9rem; }
+.log details { margin-top: 8px; }
+.log summary { cursor: pointer; color: var(--brand); font-weight: 600; font-size: .9rem; }
+.log pre { margin: 8px 0 0; padding: 10px; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; font-size: .8rem; white-space: pre-wrap; word-break: break-word; max-height: 240px; overflow: auto; }
+
+/* fixes: note layout, dark-theme buttons inside the phone */
+.banner.note { display: block; }
+.say-panel .btn:not(.btn-solid) { background: transparent; color: #eef4f6; border-color: #35505e; }
+.say-panel .btn:not(.btn-solid):hover { background: #1f3340; }
+.say-panel .btn-solid { border-color: transparent; }

@@ -1,0 +1,253 @@
+[
+ {
+  "id": "D01",
+  "lang": "en",
+  "note": "Lakshmi: guaranteed + fee + SEBI claim + Telegram",
+  "text": "SEBI-approved premium trading group. Guaranteed 25% monthly returns. Pay ₹5,000 registration fee to activate your account. Contact our manager on Telegram @prof_raj_vip",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D02",
+  "lang": "en",
+  "note": "Rohit: operator call + APK + AnyDesk",
+  "text": "Operator calls today! Buy ABC above 120 target 150 SL 110. Download our app http://nse-trade-pro.xyz/app.apk and share your screen on AnyDesk. Limited seats, join now!",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D03",
+  "lang": "en",
+  "note": "Meena: recovery agent",
+  "text": "We are fund recovery agents. Get back your lost money. Pay processing fee ₹3000 to rahul123@okaxis today",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D04",
+  "lang": "en",
+  "note": "VIP telegram, daily profit",
+  "text": "Join our VIP Telegram: t.me/stockking_vip. Daily 3-5% profit assured. Registration ₹2999 only. Limited seats.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D05",
+  "lang": "en",
+  "note": "Hinglish sure shot",
+  "text": "Bhai pakka profit milega, 100% sure shot tips. Pehle registration fees ₹1999 bhejo UPI: trader99@ybl. Aaj hi join karo!",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D06",
+  "lang": "hi",
+  "note": "Hindi guaranteed",
+  "text": "सेबी पंजीकृत सलाहकार। गारंटीड मुनाफा रोज़ 2%। रजिस्ट्रेशन फीस ₹3000 जमा करें। टेलीग्राम पर संपर्क करें।",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D07",
+  "lang": "ta",
+  "note": "Tamil guaranteed",
+  "text": "உறுதியான லாபம்! மாதம் 30% வருமானம். பதிவு கட்டணம் ₹5000 செலுத்தவும். டெலிகிராம் குழுவில் இன்றே சேருங்கள்.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D08",
+  "lang": "en",
+  "note": "Withdrawal fee",
+  "text": "Your profit of ₹1,85,000 is ready. To withdraw you must pay 18% GST ₹33,300 first. Account will be frozen otherwise.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D09",
+  "lang": "en",
+  "note": "Fake KYC + OTP",
+  "text": "Dear customer your demat KYC is expired. Update now at http://hdfc-sec-kyc.top/update or your account will be blocked today. Share OTP received.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D10",
+  "lang": "en",
+  "note": "Fake SEBI officer",
+  "text": "This is SEBI officer. A case is registered against your demat account. Pay penalty to avoid arrest. Install QuickSupport to verify.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D11",
+  "lang": "en",
+  "note": "Insider pump",
+  "text": "Operator-backed insider info: this small cap will double your money in 2 weeks. Join paid group, fee ₹4999.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D12",
+  "lang": "en",
+  "note": "IPO allotment guarantee",
+  "text": "Get guaranteed allotment in upcoming IPO. Pay ₹10,000 advance. 100% allotment, risk free.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "D13",
+  "lang": "en",
+  "note": "RA with number (format only)",
+  "text": "I am a SEBI registered research analyst, registration no INH000012345. Fee ₹12,000/year. Contact via our website.",
+  "ok_bands": [
+   "verify",
+   "high"
+  ]
+ },
+ {
+  "id": "D14",
+  "lang": "en",
+  "note": "SEBI claim, no number",
+  "text": "Our firm is SEBI registered. Open a demat account with us and get free research reports.",
+  "ok_bands": [
+   "verify",
+   "high"
+  ]
+ },
+ {
+  "id": "D15",
+  "lang": "en",
+  "note": "Telegram invite from a friend",
+  "text": "Bro join this telegram group, they share good stock ideas daily: t.me/marketideas",
+  "ok_bands": [
+   "verify",
+   "high"
+  ]
+ },
+ {
+  "id": "D16",
+  "lang": "en",
+  "note": "Bare price call",
+  "text": "Hot tip: buy above 250, target 280, stoploss 240. Join for more calls.",
+  "ok_bands": [
+   "verify",
+   "high"
+  ]
+ },
+ {
+  "id": "D17",
+  "lang": "en",
+  "note": "Educational MF disclaimer",
+  "text": "Mutual fund investments are subject to market risks. Read all scheme related documents carefully. This is for educational purposes only. Diversification can help reduce risk over time.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "D18",
+  "lang": "en",
+  "note": "SIP confirmation",
+  "text": "Your SIP of ₹5,000 was successfully processed on 3 Oct. Units allotted at NAV. Mutual fund investments are subject to market risks.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "D19",
+  "lang": "en",
+  "note": "SEBI awareness post",
+  "text": "SEBI investor awareness: Beware of tips promising guaranteed returns. Never share your OTP. Always check that the adviser is SEBI registered.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "D20",
+  "lang": "en",
+  "note": "Stock split explainer",
+  "text": "What is a stock split? A company divides each share into more shares. The price per share falls, but the total value stays the same. This is for educational purposes only.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "D21",
+  "lang": "en",
+  "note": "Family chat",
+  "text": "Dad, can you send me the electricity bill photo? I will pay online tonight.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "D22",
+  "lang": "en",
+  "note": "Bank OTP notice",
+  "text": "Your OTP for transaction of Rs 2,500 is 482913. Do not share this OTP with anyone. - HDFC Bank",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "D23",
+  "lang": "en",
+  "note": "Bank FD offer (guaranteed is legitimate here)",
+  "text": "SBI FD special rate 7.1% per annum for 444 days. Guaranteed returns for senior citizens. Visit sbi.co.in or your branch.",
+  "ok_bands": [
+   "low",
+   "verify"
+  ]
+ },
+ {
+  "id": "D24",
+  "lang": "en",
+  "note": "Official app store link",
+  "text": "Download the Zerodha Kite app from the Play Store: https://play.google.com/store/apps/details?id=com.zerodha.kite3",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "D25",
+  "lang": "ta",
+  "note": "Tamil family chat",
+  "text": "நாளை மாலை 5 மணிக்கு கூட்டம் உள்ளது. வர முடியுமா?",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "D26",
+  "lang": "hi",
+  "note": "Hindi awareness",
+  "text": "सावधान! कोई भी गारंटी वाला मुनाफा नहीं दे सकता। अपना OTP किसी को न बताएं।",
+  "ok_bands": [
+   "low"
+  ]
+ }
+]

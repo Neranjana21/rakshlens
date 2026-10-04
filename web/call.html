@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d4e5f">
+  <title>RakshaLens call simulator</title>
+  <meta name="description" content="A simulated phone call to RakshaLens: press keys, say a message, hear the verdict. Prototype; no real phone number is used.">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="src/styles/tokens.css">
+  <link rel="stylesheet" href="src/styles/base.css">
+  <link rel="stylesheet" href="src/styles/call.css">
+</head>
+<body>
+  <main class="wrap call-page">
+    <header class="call-head">
+      <div>
+        <h1>Phone-call prototype</h1>
+        <p class="tagline">For people with a basic phone: call, say the message you received, hear the verdict.</p>
+      </div>
+      <a class="chip" href="./">Back to the app</a>
+    </header>
+
+    <p class="banner note" role="note">
+      This simulator talks to this server's real phone-call endpoints (<code>/api/ivr/*</code>).
+      On a real line, a phone provider such as Twilio would play the voice and turn the caller's speech into text.
+      It has not been tested with a real phone number.
+    </p>
+
+    <div class="call-grid">
+      <section class="phone" aria-label="Simulated phone">
+        <div class="screen">
+          <div class="who">
+            <div class="avatar" aria-hidden="true">R</div>
+            <div>
+              <div class="name">RakshaLens helpline</div>
+              <div id="status" class="status" role="status" aria-live="polite">Ready to call</div>
+            </div>
+            <div id="timer" class="timer" aria-hidden="true">00:00</div>
+          </div>
+
+          <div id="transcript" class="transcript" aria-live="polite"></div>
+
+          <div id="say-panel" class="say-panel hidden">
+            <label for="said" class="lbl">Pretend the caller says:</label>
+            <textarea id="said" rows="3" placeholder="Read out the message you received…"></textarea>
+            <div id="examples" class="examples-row"></div>
+            <div class="say-actions">
+              <button id="mic" class="btn hidden" type="button">Speak</button>
+              <button id="send" class="btn btn-solid" type="button">Send</button>
+            </div>
+          </div>
+
+          <div id="keypad" class="keypad disabled" aria-label="Keypad">
+            <button type="button" data-key="1">1</button>
+            <button type="button" data-key="2">2</button>
+            <button type="button" data-key="3">3</button>
+            <button type="button" data-key="4">4</button>
+            <button type="button" data-key="5">5</button>
+            <button type="button" data-key="6">6</button>
+            <button type="button" data-key="7">7</button>
+            <button type="button" data-key="8">8</button>
+            <button type="button" data-key="9">9</button>
+            <button type="button" data-key="*">*</button>
+            <button type="button" data-key="0">0</button>
+            <button type="button" data-key="#">#</button>
+          </div>
+
+          <div class="call-buttons">
+            <button id="call" class="btn call-start" type="button">Call</button>
+            <button id="end" class="btn call-end hidden" type="button">Hang up</button>
+          </div>
+        </div>
+        <p id="voice-note" class="muted voice-note"></p>
+      </section>
+
+      <section class="behind" aria-label="What the server does">
+        <h2 class="m0">Behind the scenes</h2>
+        <p class="muted">Every step below is a real request to this server. The reply is a short set of instructions (TwiML) that the phone provider would speak.</p>
+        <ol id="log" class="log"></ol>
+        <p id="log-empty" class="muted">Press Call to start.</p>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="src/call.js"></script>
+</body>
+</html>

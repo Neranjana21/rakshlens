@@ -1,0 +1,194 @@
+[
+ {
+  "id": "N01",
+  "lang": "en",
+  "note": "Passive income, send capital to account",
+  "text": "Hello, this is Rahul from Alpha Wealth. Earn passive income of ₹40,000 monthly with zero effort. We handle your portfolio. Send ₹10,000 as initial capital to our company account 50100234567890 (IFSC HDFC0000123).",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N02",
+  "lang": "en",
+  "note": "Deactivation threat + look-alike KYC link",
+  "text": "URGENT: Your Zerodha account will be deactivated. Verify now: zerodha-kyc.in/verify",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N03",
+  "lang": "en",
+  "note": "Hinglish no-risk group on wa.me",
+  "text": "Bhai ye group join kar, daily 5000 kamao, no risk. Link: wa.me/919876501234",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N04",
+  "lang": "ta",
+  "note": "Tamil account freeze + OTP",
+  "text": "உங்கள் டிமேட் கணக்கு முடக்கப்படும். உடனே இந்த எண்ணை அழைக்கவும். OTP சொல்லுங்கள்.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N05",
+  "lang": "hi",
+  "note": "Hindi recovery for commission",
+  "text": "आपका शेयर बाज़ार में पैसा डूब गया? हम आपके पैसे वापस करा देंगे, सिर्फ 10% कमीशन एडवांस में दें।",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N06",
+  "lang": "en",
+  "note": "IPO pre-booking deposit",
+  "text": "Exclusive IPO pre-booking: allotment assured for ₹25,000 deposit. Limited quota, closes tonight!",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N07",
+  "lang": "en",
+  "note": "Fake SEBI circular, safe account",
+  "text": "Dear sir, as per SEBI circular, you must transfer your holdings to a safe account for verification. Call the compliance officer immediately.",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N08",
+  "lang": "en",
+  "note": "RA with number and modest claim",
+  "text": "Sir I am a SEBI registered advisor (INA000098765). My clients get consistent 3% returns per month. Please check my SEBI profile.",
+  "ok_bands": [
+   "verify",
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N09",
+  "lang": "en",
+  "note": "Pump alert on Telegram",
+  "text": "Pump alert! XYZ will hit upper circuit tomorrow. Everyone buy at open. Join our Telegram: t.me/pumpalert",
+  "ok_bands": [
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N10",
+  "lang": "en",
+  "note": "Paid course with SEBI claim",
+  "text": "Trading course ₹4,999 only. Learn price action from a SEBI registered teacher. Certificate provided.",
+  "ok_bands": [
+   "verify",
+   "high",
+   "critical"
+  ]
+ },
+ {
+  "id": "N11",
+  "lang": "en",
+  "note": "Genuine KYC-updated confirmation",
+  "text": "Dear customer, your KYC has been successfully updated. Thank you for choosing our services. - ICICI Securities",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N12",
+  "lang": "en",
+  "note": "NFO reminder with disclaimer",
+  "text": "Reminder: Mutual fund NFO closes on 10 Oct. Read the scheme information document before investing. Mutual fund investments are subject to market risks.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N13",
+  "lang": "en",
+  "note": "Family chat about the market",
+  "text": "Hey, did you see the news? Sensex fell 800 points today. Dad is worried about his shares.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N14",
+  "lang": "en",
+  "note": "Fake-app awareness tips",
+  "text": "How to identify a fake trading app: check publisher name, reviews, and whether SEBI lists the broker. Never share your OTP or password with anyone.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N15",
+  "lang": "ta",
+  "note": "Tamil free class",
+  "text": "இன்று மாலை பங்குச் சந்தை பற்றிய இலவச வகுப்பு உள்ளது. விருப்பமுள்ளவர்கள் வரலாம்.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N16",
+  "lang": "hi",
+  "note": "Hindi SIP reminder",
+  "text": "आपकी SIP की किस्त ₹1,000 कल कटेगी। कृपया खाते में पर्याप्त राशि रखें।",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N17",
+  "lang": "en",
+  "note": "Book shipment",
+  "text": "Your order for Zerodha Varsity book has shipped. Track it on the Amazon app.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N18",
+  "lang": "en",
+  "note": "Adviser explaining fee terms",
+  "text": "Our fee is fixed at ₹5,000 per year, charged after you sign our agreement, as per SEBI regulations. No fee is taken in advance.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N19",
+  "lang": "en",
+  "note": "Official broker domain",
+  "text": "Free demat account opening at HDFC Securities: visit hdfcsec.com or your nearest branch.",
+  "ok_bands": [
+   "low"
+  ]
+ },
+ {
+  "id": "N20",
+  "lang": "en",
+  "note": "Warning about fake officers",
+  "text": "ALERT: Do not trust calls from people claiming to be SEBI officers asking for money. SEBI never asks for fees over phone.",
+  "ok_bands": [
+   "low"
+  ]
+ }
+]

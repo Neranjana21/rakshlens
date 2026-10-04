@@ -1,0 +1,153 @@
+{
+  "_note": "Starter list of official domains used for look-alike checks. Extend it; a domain missing here is reported as 'check this link', never as 'fake'.",
+  "sebi": [
+    "sebi.gov.in",
+    "scores.sebi.gov.in"
+  ],
+  "nse": [
+    "nseindia.com",
+    "nse.co.in"
+  ],
+  "bse": [
+    "bseindia.com"
+  ],
+  "nsdl": [
+    "nsdl.com",
+    "nsdl.co.in"
+  ],
+  "cdsl": [
+    "cdslindia.com"
+  ],
+  "amfi": [
+    "amfiindia.com"
+  ],
+  "rbi": [
+    "rbi.org.in"
+  ],
+  "npci": [
+    "npci.org.in"
+  ],
+  "zerodha": [
+    "zerodha.com"
+  ],
+  "groww": [
+    "groww.in"
+  ],
+  "upstox": [
+    "upstox.com"
+  ],
+  "angelone": [
+    "angelone.in",
+    "angelbroking.com"
+  ],
+  "icici": [
+    "icicibank.com",
+    "icicidirect.com",
+    "icicisecurities.com",
+    "iciciprulife.com",
+    "icicipruamc.com"
+  ],
+  "hdfc": [
+    "hdfcbank.com",
+    "hdfcsec.com",
+    "hdfcfund.com",
+    "hdfclife.com"
+  ],
+  "sbi": [
+    "sbi.co.in",
+    "onlinesbi.sbi",
+    "sbisecurities.com",
+    "sbimf.com"
+  ],
+  "kotak": [
+    "kotak.com",
+    "kotaksecurities.com",
+    "kotakmf.com"
+  ],
+  "axis": [
+    "axisbank.com",
+    "axissecurities.in",
+    "axismf.com"
+  ],
+  "paytm": [
+    "paytm.com"
+  ],
+  "phonepe": [
+    "phonepe.com"
+  ],
+  "motilal": [
+    "motilaloswal.com"
+  ],
+  "5paisa": [
+    "5paisa.com"
+  ],
+  "dhan": [
+    "dhan.co"
+  ],
+  "cybercrime": [
+    "cybercrime.gov.in"
+  ],
+  "sharekhan": [
+    "sharekhan.com",
+    "mirae-asset.com"
+  ],
+  "iifl": [
+    "iifl.com",
+    "indiainfoline.com",
+    "5paisa.com"
+  ],
+  "edelweiss": [
+    "edelweiss.in",
+    "edelweissfin.com",
+    "nuvamawealth.com"
+  ],
+  "nuvama": [
+    "nuvamawealth.com"
+  ],
+  "geojit": [
+    "geojit.com"
+  ],
+  "fyers": [
+    "fyers.in"
+  ],
+  "smallcase": [
+    "smallcase.com"
+  ],
+  "indmoney": [
+    "indmoney.com"
+  ],
+  "paisabazaar": [
+    "paisabazaar.com"
+  ],
+  "bajaj": [
+    "bajajfinserv.in",
+    "bajajfinserv.com",
+    "bajajbroking.in"
+  ],
+  "nippon": [
+    "nipponindiamf.com"
+  ],
+  "canara": [
+    "canarabank.com",
+    "canararobeco.com"
+  ],
+  "indusind": [
+    "indusind.com"
+  ],
+  "idfc": [
+    "idfcfirstbank.com"
+  ],
+  "epfo": [
+    "epfindia.gov.in"
+  ],
+  "incometax": [
+    "incometax.gov.in",
+    "incometaxindia.gov.in"
+  ],
+  "digilocker": [
+    "digilocker.gov.in"
+  ],
+  "karvy": [
+    "kfintech.com"
+  ]
+}

@@ -1,0 +1,10 @@
+body{font:15px/1.5 system-ui,"Noto Sans","Noto Sans Tamil","Noto Sans Devanagari",sans-serif;margin:0;padding:12px;width:380px;color:#1b1a17;background:#fbf8f3}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.note{color:#55514a;font-size:13px;margin:0 0 8px}
+textarea{width:100%;box-sizing:border-box;padding:8px;border:2px solid #e2dbcd;border-radius:8px;font:inherit}
+button{margin:8px 0;padding:10px 14px;border:0;border-radius:8px;background:#1d4e5f;color:#fff;font:inherit;font-weight:700;cursor:pointer;width:100%}
+#saveapi{width:auto;padding:6px 12px}
+.band{padding:10px 12px;border-radius:8px;border-left:10px solid currentColor;margin:8px 0;font-weight:800}
+.low{background:#e3f1e7;color:#14502a}.verify{background:#fff0cf;color:#6b4400}.high{background:#fce3dc;color:#8f2412}.critical{background:#7a1010;color:#fff}
+ul{padding-left:18px;margin:6px 0}.err{color:#8f2412;font-weight:600}
+small{color:#55514a}

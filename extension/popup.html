@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RakshaLens</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header><strong>RakshaLens</strong><select id="lang" aria-label="Language">
+    <option value="en">English</option><option value="ta">தமிழ்</option><option value="hi">हिन्दी</option></select></header>
+  <p class="note">Nothing you check is saved. Select text on a page, right-click and choose “Check with RakshaLens”, or paste below.</p>
+  <textarea id="msg" placeholder="Paste a message or link…" rows="5"></textarea>
+  <button id="check" type="button">Check</button>
+  <div id="out" aria-live="polite"></div>
+  <details><summary>Server address</summary>
+    <input id="api" type="url" placeholder="https://your-rakshalens.onrender.com">
+    <button id="saveapi" type="button">Save</button></details>
+  <script src="popup.js"></script>
+</body>
+</html>
